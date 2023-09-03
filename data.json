@@ -1,0 +1,643 @@
+{
+	"heads":
+	[
+		{
+			"en_load": 95,
+			"name": "AH-J-124 BASHO",
+			"weight": 4600
+		},
+		{
+			"en_load": 95,
+			"name": "AH-J-124/RC JAILBREAK",
+			"weight": 4250
+		},
+		{
+			"en_load": 135,
+			"name": "HD-011 MELANDER",
+			"weight": 3160
+		},
+		{
+			"en_load": 240,
+			"name": "HD-033M VERRILL",
+			"weight": 3830
+		},
+		{
+			"en_load": 165,
+			"name": "HD-012 MELANDER C3",
+			"weight": 3300
+		},
+		{
+			"en_load": 88,
+			"name": "DF-HD-08 TIAN-QIANG",
+			"weight": 1230
+		},
+		{
+			"en_load": 148,
+			"name": "VP-44S",
+			"weight": 3080
+		},
+		{
+			"en_load": 177,
+			"name": "VP-44D",
+			"weight": 3260
+		},
+		{
+			"en_load": 210,
+			"name": "NACHTREIHER/44E",
+			"weight": 2320
+		},
+		{
+			"en_load": 254,
+			"name": "KASUAR/44Z",
+			"weight": 2590
+		},
+		{
+			"en_load": 182,
+			"name": "VE-44A",
+			"weight": 3640
+		},
+		{
+			"en_load": 265,
+			"name": "VE-44B",
+			"weight": 4320
+		},
+		{
+			"en_load": 125,
+			"name": "HC-2000 FINDER EYE",
+			"weight": 2670
+		},
+		{
+			"en_load": 163,
+			"name": "HC-2000/BC SHADE EYE",
+			"weight": 3090
+		},
+		{
+			"en_load": 102,
+			"name": "HC-3000 WRECKER",
+			"weight": 3800
+		},
+		{
+			"en_load": 103,
+			"name": "HS-5000 APPETIZER",
+			"weight": 3000
+		},
+		{
+			"en_load": 134,
+			"name": "EL-TH-10 FIRMEZA",
+			"weight": 2570
+		},
+		{
+			"en_load": 205,
+			"name": "EL-PH-00 ALBA",
+			"weight": 2800
+		},
+		{
+			"en_load": 142,
+			"name": "20-081 MIND ALPHA",
+			"weight": 3350
+		},
+		{
+			"en_load": 128,
+			"name": "20-082 MIND BETA",
+			"weight": 3460
+		},
+		{
+			"en_load": 233,
+			"name": "IA-C10H EPHEMERA",
+			"weight": 4330
+		},
+		{
+			"en_load": 215,
+			"name": "IB-C03H HAL 826",
+			"weight": 3760
+		}
+	],
+	"cores":
+	[
+		{
+			"name": "AC-J-120 BASHO",
+			"weight": 16100,
+			"en_load": 300,
+			"output_adj": 83
+		},
+		{
+			"name": "AC-J-120/RC JAILBREAK",
+			"weight": 12350,
+			"en_load": 300,
+			"output_adj": 83
+		},
+		{
+			"name": "BD-011 MELANDER",
+			"weight": 15800,
+			"en_load": 304,
+			"output_adj": 105
+		},
+		{
+			"name": "BD-012 MELANDER C3",
+			"weight": 14050,
+			"en_load": 322,
+			"output_adj": 102
+		},
+		{
+			"name": "DF-BD-08 TIAN-QIANG",
+			"weight": 20650,
+			"en_load": 388,
+			"output_adj": 114
+		},
+		{
+			"name": "VP-40S",
+			"weight": 15030,
+			"en_load": 337,
+			"output_adj": 106
+		},
+		{
+			"name": "NACHTREIHER/40E",
+			"weight": 9820,
+			"en_load": 330,
+			"output_adj": 84
+		},
+		{
+			"name": "VE-40A",
+			"weight": 21100,
+			"en_load": 432,
+			"output_adj": 122
+		},
+		{
+			"name": "CC-2000 ORBITER",
+			"weight": 12650,
+			"en_load": 267,
+			"output_adj": 103
+		},
+		{
+			"name": "CC-3000 WRECKER",
+			"weight": 19000,
+			"en_load": 310,
+			"output_adj": 96
+		},
+		{
+			"name": "CS-5000 MAIN DISH",
+			"weight": 23600,
+			"en_load": 413,
+			"output_adj": 97
+		},
+		{
+			"name": "EL-TC-10 FIRMEZA",
+			"weight": 10890,
+			"en_load": 351,
+			"output_adj": 104
+		},
+		{
+			"name": "EL-PC-00 ALBA",
+			"weight": 12000,
+			"en_load": 315,
+			"output_adj": 101
+		},
+		{
+			"name": "07-061 MIND ALPHA",
+			"weight": 16510,
+			"en_load": 364,
+			"output_adj": 112
+		},
+		{
+			"name": "IA-C01C EPHEMERA",
+			"weight": 13200,
+			"en_load": 412,
+			"output_adj": 126
+		},
+		{
+			"name": "IB-C03C HAL 826",
+			"weight": 18520,
+			"en_load": 366,
+			"output_adj": 120
+		}
+	],
+	"arms":
+	[
+		{
+			"name": "AA-J-123 BASHO",
+			"weight": 10480,
+			"en_load": 210
+		},
+		{
+			"name": "AA-J-123/RC JAILBREAK",
+			"weight": 8480,
+			"en_load": 210
+		},
+		{
+			"name": "AR-011 MELANDER",
+			"weight": 13650,
+			"en_load": 265
+		},
+		{
+			"name": "AR-012 MELANDER C3",
+			"weight": 12300,
+			"en_load": 232
+		},
+		{
+			"name": "DF-AR-08 TIAN-QIANG",
+			"weight": 20020,
+			"en_load": 295
+		},
+		{
+			"name": "DF-AR-09 TIAN-LAO",
+			"weight": 26740,
+			"en_load": 266
+		},
+		{
+			"name": "VP-46S",
+			"weight": 14020,
+			"en_load": 278
+		},
+		{
+			"name": "VP-46D",
+			"weight": 10990,
+			"en_load": 248
+		},
+		{
+			"name": "NACHTREIHER/46E",
+			"weight": 11420,
+			"en_load": 302
+		},
+		{
+			"name": "VE-46A",
+			"weight": 22210,
+			"en_load": 380
+		},
+		{
+			"name": "AC-2000 TOOL ARM",
+			"weight": 11300,
+			"en_load": 216
+		},
+		{
+			"name": "AC-3000 WRECKER",
+			"weight": 14650,
+			"en_load": 220
+		},
+		{
+			"name": "AS-5000 SALAD",
+			"weight": 20940,
+			"en_load": 356
+		},
+		{
+			"name": "EL-TA-10 FIRMEZA",
+			"weight": 11220,
+			"en_load": 270
+		},
+		{
+			"name": "EL-PA-00 ALBA",
+			"weight": 9810,
+			"en_load": 315
+		},
+		{
+			"name": "04-101 MIND ALPHA",
+			"weight": 16960,
+			"en_load": 358
+		},
+		{
+			"name": "IA-C01A EPHEMERA",
+			"weight": 12700,
+			"en_load": 312
+		},
+		{
+			"name": "IB-C03A HAL 826",
+			"weight": 14160,
+			"en_load": 300
+		}
+	],
+	"legs":
+	[
+		{
+			"name": "AL-J-121 BASHO",
+			"weight": 20520,
+			"load_limit": 62600,
+			"en_load": 300
+		},
+		{
+			"name": "AL-J-121/RC JAILBREAK",
+			"weight": 18560,
+			"load_limit": 62600,
+			"en_load": 300
+		},
+		{
+			"name": "LG-011 MELANDER",
+			"weight": 18700,
+			"load_limit": 60520,
+			"en_load": 365
+		},
+		{
+			"name": "LG-012 MELANDER C3",
+			"weight": 17210,
+			"load_limit": 55440,
+			"en_load": 355
+		},
+		{
+			"name": "DF-LG-08 TIAN-QIANG",
+			"weight": 23600,
+			"load_limit": 82600,
+			"en_load": 400
+		},
+		{
+			"name": "VP-422",
+			"weight": 17900,
+			"load_limit": 58620,
+			"en_load": 387
+		},
+		{
+			"name": "NACHTREIHER/42E",
+			"weight": 14030,
+			"load_limit": 48650,
+			"en_load": 462
+		},
+		{
+			"name": "VE-42A",
+			"weight": 28950,
+			"load_limit": 85700,
+			"en_load": 465
+		},
+		{
+			"name": "2C-2000 CRAWLER",
+			"weight": 16300,
+			"load_limit": 51200,
+			"en_load": 280
+		},
+		{
+			"name": "2C-3000 WRECKER",
+			"weight": 21680,
+			"load_limit": 68900,
+			"en_load": 680
+		},
+		{
+			"name": "2S-5000 DESSERT",
+			"weight": 25880,
+			"load_limit": 77100,
+			"en_load": 420
+		},
+		{
+			"name": "EL-TL-10 FIRMEZA",
+			"weight": 11200,
+			"load_limit": 52100,
+			"en_load": 378
+		},
+		{
+			"name": "EL-PL-00 ALBA",
+			"weight": 13150,
+			"load_limit": 50100,
+			"en_load": 360
+		},
+		{
+			"name": "06-041 MIND ALPHA",
+			"weight": 22110,
+			"load_limit": 63810,
+			"en_load": 432
+		},
+		{
+			"name": "IA-C01L EPHEMERA",
+			"weight": 15200,
+			"load_limit": 55050,
+			"en_load": 398
+		},
+		{
+			"name": "IB-C03L HAL 826",
+			"weight": 20890,
+			"load_limit": 64900,
+			"en_load": 385
+		},
+		{
+			"name": "KASUAR/42Z",
+			"weight": 19060,
+			"load_limit": 47820,
+			"en_load": 388
+		},
+		{
+			"name": "06-042 MIND BETA",
+			"weight": 22000,
+			"load_limit": 61600,
+			"en_load": 426
+		},
+		{
+			"name": "RC-2000 SPRING CHICKEN",
+			"weight": 25890,
+			"load_limit": 68360,
+			"en_load": 402
+		},
+		{
+			"name": "LG-033M VERILL",
+			"weight": 36200,
+			"load_limit": 76200,
+			"en_load": 675
+		},
+		{
+			"name": "VP-424",
+			"weight": 31600,
+			"load_limit": 69800,
+			"en_load": 760
+		},
+		{
+			"name": "LG-022T BORNEMISSZA",
+			"weight": 49800,
+			"load_limit": 100300,
+			"en_load": 455
+		},
+		{
+			"name": "VE-42B",
+			"weight": 36600,
+			"load_limit": 91000,
+			"en_load": 824
+		},
+		{
+			"name": "EL-TL-11 FORTALEZA",
+			"weight": 24650,
+			"load_limit": 69300,
+			"en_load": 620
+		}
+	],
+	"boosters":
+	[
+		{
+			"name": "AB-J-137 KIKAKU",
+			"weight": 1820,
+			"en_load": 266
+		},
+		{
+			"name": "BST-G2/P04",
+			"weight": 1710,
+			"en_load": 250
+		},
+		{
+			"name": "BST-G1/P10",
+			"weight": 1300,
+			"en_load": 130
+		},
+		{
+			"name": "BST-G2/P06SPD",
+			"weight": 1420,
+			"en_load": 390
+		},
+		{
+			"name": "ALULA/21E",
+			"weight": 1900,
+			"en_load": 410
+		},
+		{
+			"name": "FLUEGEL/21Z",
+			"weight": 1980,
+			"en_load": 282
+		},
+		{
+			"name": "BUERZEL/21D",
+			"weight": 2240,
+			"en_load": 480
+		},
+		{
+			"name": "BC-0600 12345",
+			"weight": 1360,
+			"en_load": 180
+		},
+		{
+			"name": "BC-0400 MULE",
+			"weight": 970,
+			"en_load": 200
+		},
+		{
+			"name": "BC-0200 GRIDWALKER",
+			"weight": 2010,
+			"en_load": 244
+		},
+		{
+			"name": "IA-C01B GILLS",
+			"weight": 1590,
+			"en_load": 400
+		},
+		{
+			"name": "IB-C03B NGI 001",
+			"weight": 1930,
+			"en_load": 342
+		}
+	],
+	"fcs":
+	[
+		{
+			"name": "FCS-G1/P01",
+			"weight": 80,
+			"en_load": 198
+		},
+		{
+			"name": "FCS-G2/P05",
+			"weight": 100,
+			"en_load": 232
+		},
+		{
+			"name": "FCS0G2/P10SLT",
+			"weight": 120,
+			"en_load": 209
+		},
+		{
+			"name": "FCS-G2/P12SML",
+			"weight": 130,
+			"en_load": 278
+		},
+		{
+			"name": "FC-006 ABBOT",
+			"weight": 90,
+			"en_load": 266
+		},
+		{
+			"name": "FC-008 TALBOT",
+			"weight": 140,
+			"en_load": 312
+		},
+		{
+			"name": "VE-21A",
+			"weight": 85,
+			"en_load": 364
+		},
+		{
+			"name": "VE-21B",
+			"weight": 160,
+			"en_load": 388
+		},
+		{
+			"name": "IA-C01F OCELLUS",
+			"weight": 130,
+			"en_load": 292
+		},
+		{
+			"name": "IB-C03F WLT 001",
+			"weight": 150,
+			"en_load": 486
+		}
+	],
+	"generators":
+	[
+		{
+			"name": "AG-J-098 JOSO",
+			"weight": 3420,
+			"en_output": 2600
+		},
+		{
+			"name": "AG-E-013 YABA",
+			"weight": 5080,
+			"en_output": 3000
+		},
+		{
+			"name": "AG-T005 HOKUSHI",
+			"weight": 7080,
+			"en_output": 3810
+		},
+		{
+			"name": "DF-GN-02 LING-TAI",
+			"weight": 3860,
+			"en_output": 2340
+		},
+		{
+			"name": "DF-GN-06 MING-TANG",
+			"weight": 6320,
+			"en_output": 3160
+		},
+		{
+			"name": "DF-GN-08 SAN-TAI",
+			"weight": 10060,
+			"en_output": 3210
+		},
+		{
+			"name": "VP-20S",
+			"weight": 3800,
+			"en_output": 3200
+		},
+		{
+			"name": "VP-20C",
+			"weight": 5320,
+			"en_output": 3670
+		},
+		{
+			"name": "VP-20D",
+			"weight": 11030,
+			"en_output": 4430
+		},
+		{
+			"name": "VE-20A",
+			"weight": 3590,
+			"en_output": 3120
+		},
+		{
+			"name": "VE-20B",
+			"weight": 5860,
+			"en_output": 2890
+		},
+		{
+			"name": "VE-20C",
+			"weight": 10130,
+			"en_output": 4090
+		},
+		{
+			"name": "IA-C01G AORTA",
+			"weight": 4330,
+			"en_output": 3500
+		},
+		{
+			"name": "IB-C03G NGI 000",
+			"weight": 8950,
+			"en_output": 4340
+		}
+	]
+}
