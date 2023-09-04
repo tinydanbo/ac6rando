@@ -10,7 +10,7 @@
 		}
 		.part {
 			border: 1px solid #AAA;
-			margin: 2em;
+			margin: 1em;
 			padding: 1em;
 		}
 		.part-category {
@@ -23,47 +23,82 @@
 			font-weight: bold;
 			margin-top: 0.5em;
 		}
+		ol {
+			list-style: disc;
+		}
+		.options {
+			border: 1px solid #AAA;
+			background-color: #EEE;
+			padding: 2em;
+		}
+		.options h3 {
+			margin-top: 0;
+		}
+		.build {
+			width: 100%;
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+		}
 	</style>
 </head>
 <body>
-	<div class="part">
-		<div class="part-category">HEAD</div>
-		<div class="part-name" id="head-name">...</div>
-	</div>
-	<div class="part">
-		<div class="part-category">CORE</div>
-		<div class="part-name" id="core-name">...</div>
-	</div>
-	<div class="part">
-		<div class="part-category">ARMS</div>
-		<div class="part-name" id="arms-name">...</div>
-	</div>
-	<div class="part">
-		<div class="part-category">LEGS</div>
-		<div class="part-name" id="legs-name">...</div>
-	</div>
-	<div class="part">
-		<div class="part-category">BOOSTER</div>
-		<div class="part-name" id="booster-name">...</div>
-	</div>
-	<div class="part">
-		<div class="part-category">FCS</div>
-		<div class="part-name" id="fcs-name">...</div>
-	</div>
-	<div class="part">
-		<div class="part-category">GENERATOR</div>
-		<div class="part-name" id="generator-name">...</div>
+	<h1>Armored Core 6 Build Randomizer</h1>
+	<p>Build randomizer that ensures weight / EN load is correct. All parts are included, even hidden/loghunt/story/preorder ones.</p>
+	<div class="build">
+		<div class="part">
+			<div class="part-category">HEAD</div>
+			<div class="part-name" id="head-name">...</div>
+		</div>
+		<div class="part">
+			<div class="part-category">CORE</div>
+			<div class="part-name" id="core-name">...</div>
+		</div>
+		<div class="part">
+			<div class="part-category">ARMS</div>
+			<div class="part-name" id="arms-name">...</div>
+		</div>
+		<div class="part">
+			<div class="part-category">LEGS</div>
+			<div class="part-name" id="legs-name">...</div>
+		</div>
+		<div class="part">
+			<div class="part-category">BOOSTER</div>
+			<div class="part-name" id="booster-name">...</div>
+		</div>
+		<div class="part">
+			<div class="part-category">FCS</div>
+			<div class="part-name" id="fcs-name">...</div>
+		</div>
+		<div class="part">
+			<div class="part-category">GENERATOR</div>
+			<div class="part-name" id="generator-name">...</div>
+		</div>
+		<div class="part">
+			<div class="part-category">EXPANSION</div>
+			<div class="part-name" id="expansion-name">...</div>
+		</div>
 	</div>
 	<ul>
 		<li><b>Weight:</b> <span id="weight-info">...</span></li>
 		<li><b>Energy:</b> <span id="energy-info">...</span></li>
+		<li><b>Total COAM Price:</b> <span id="price-info">...</span></li>
 	</ul>
 	<button id="reroll">Randomize</button>
-	<ul>
-		<li>Weapons not included, see what your build can support</li>
-		<li>All parts included, even annoying hidden/loghunt/story/preorder ones</li>
-		<li>You should probably use whatever FCS makes sense, it's included in randomization to make sure you can have _something_</li> 
-	</ul>
+	<br /><br />
+	<div class="options">
+		<h3>Options</h3>
+		<div>
+			<input type="checkbox" id="toggle-price-option" autocomplete="off" /> <label for="toggle-price-option">Maximum Total Price</label> <input type="range" id="price-option" value="1000000" step="50000" min="0" max="5000000" autocomplete="off" disabled /> <label for="price-option" id="price-value"></label>
+		</div>
+	</div>
+	<h3>Changelog</h3>
+	<ol>
+		<li>2023/09/05 -- no boosters for tank legs, price option, changed layout</li>
+		<li>2023/09/03 -- first version</li>
+	</ol>
+	<footer>
+		<a href="https://cohost.org/danbo" />danbo</a> did this.
+	</footer>
 	<script src="https://cdn.jsdelivr.net/npm/underscore@1.13.6/underscore-umd-min.js"></script>
 	<script type="module" src="./index.js"></script>
 </body>

@@ -2,114 +2,136 @@
 	"heads":
 	[
 		{
-			"en_load": 95,
 			"name": "AH-J-124 BASHO",
-			"weight": 4600
-		},
-		{
+			"weight": 4600,
 			"en_load": 95,
+			"price": 61000
+		},
+		{
 			"name": "AH-J-124/RC JAILBREAK",
-			"weight": 4250
+			"weight": 4250,
+			"en_load": 95,
+			"price": 0
 		},
 		{
-			"en_load": 135,
 			"name": "HD-011 MELANDER",
-			"weight": 3160
+			"weight": 3160,
+			"en_load": 135,
+			"price": 75000
 		},
 		{
-			"en_load": 240,
 			"name": "HD-033M VERRILL",
-			"weight": 3830
+			"weight": 3830,
+			"en_load": 240,
+			"price": 205000
 		},
 		{
-			"en_load": 165,
 			"name": "HD-012 MELANDER C3",
-			"weight": 3300
+			"weight": 3300,
+			"en_load": 165,
+			"price": 0
 		},
 		{
-			"en_load": 88,
 			"name": "DF-HD-08 TIAN-QIANG",
-			"weight": 1230
+			"weight": 1230,
+			"en_load": 88,
+			"price": 58000
 		},
 		{
-			"en_load": 148,
 			"name": "VP-44S",
-			"weight": 3080
+			"weight": 3080,
+			"en_load": 148,
+			"price": 124000
 		},
 		{
-			"en_load": 177,
 			"name": "VP-44D",
-			"weight": 3260
+			"weight": 3260,
+			"en_load": 177,
+			"price": 231000
 		},
 		{
-			"en_load": 210,
 			"name": "NACHTREIHER/44E",
-			"weight": 2320
+			"weight": 2320,
+			"en_load": 210,
+			"price": 84000
 		},
 		{
-			"en_load": 254,
 			"name": "KASUAR/44Z",
-			"weight": 2590
+			"weight": 2590,
+			"en_load": 254,
+			"price": 210000
 		},
 		{
-			"en_load": 182,
 			"name": "VE-44A",
-			"weight": 3640
+			"weight": 3640,
+			"en_load": 182,
+			"price": 275000
 		},
 		{
-			"en_load": 265,
 			"name": "VE-44B",
-			"weight": 4320
+			"weight": 4320,
+			"en_load": 265,
+			"price": 306000
 		},
 		{
-			"en_load": 125,
 			"name": "HC-2000 FINDER EYE",
-			"weight": 2670
+			"weight": 2670,
+			"en_load": 125,
+			"price": 0
 		},
 		{
-			"en_load": 163,
 			"name": "HC-2000/BC SHADE EYE",
-			"weight": 3090
+			"weight": 3090,
+			"en_load": 163,
+			"price": 147000
 		},
 		{
-			"en_load": 102,
 			"name": "HC-3000 WRECKER",
-			"weight": 3800
+			"weight": 3800,
+			"en_load": 102,
+			"price": 59000
 		},
 		{
-			"en_load": 103,
 			"name": "HS-5000 APPETIZER",
-			"weight": 3000
+			"weight": 3000,
+			"en_load": 103,
+			"price": 199000
 		},
 		{
-			"en_load": 134,
 			"name": "EL-TH-10 FIRMEZA",
-			"weight": 2570
+			"weight": 2570,
+			"en_load": 134,
+			"price": 177000
 		},
 		{
-			"en_load": 205,
 			"name": "EL-PH-00 ALBA",
-			"weight": 2800
+			"weight": 2800,
+			"en_load": 205,
+			"price": 208000
 		},
 		{
-			"en_load": 142,
 			"name": "20-081 MIND ALPHA",
-			"weight": 3350
+			"weight": 3350,
+			"en_load": 142,
+			"price": 223000
 		},
 		{
-			"en_load": 128,
 			"name": "20-082 MIND BETA",
-			"weight": 3460
+			"weight": 3460,
+			"en_load": 128,
+			"price": 261000
 		},
 		{
-			"en_load": 233,
 			"name": "IA-C10H EPHEMERA",
-			"weight": 4330
+			"weight": 4330,
+			"en_load": 233,
+			"price": 237000
 		},
 		{
-			"en_load": 215,
 			"name": "IB-C03H HAL 826",
-			"weight": 3760
+			"weight": 3760,
+			"en_load": 215,
+			"price": 254000
 		}
 	],
 	"cores":
@@ -118,97 +140,113 @@
 			"name": "AC-J-120 BASHO",
 			"weight": 16100,
 			"en_load": 300,
-			"output_adj": 83
+			"output_adj": 83,
+			"price": 166000
 		},
 		{
 			"name": "AC-J-120/RC JAILBREAK",
 			"weight": 12350,
 			"en_load": 300,
-			"output_adj": 83
+			"output_adj": 83,
+			"price": 0
 		},
 		{
 			"name": "BD-011 MELANDER",
 			"weight": 15800,
 			"en_load": 304,
-			"output_adj": 105
+			"output_adj": 105,
+			"price": 195000
 		},
 		{
 			"name": "BD-012 MELANDER C3",
 			"weight": 14050,
 			"en_load": 322,
-			"output_adj": 102
+			"output_adj": 102,
+			"price": 0
 		},
 		{
 			"name": "DF-BD-08 TIAN-QIANG",
 			"weight": 20650,
 			"en_load": 388,
-			"output_adj": 114
+			"output_adj": 114,
+			"price": 390000
 		},
 		{
 			"name": "VP-40S",
 			"weight": 15030,
 			"en_load": 337,
-			"output_adj": 106
+			"output_adj": 106,
+			"price": 354000
 		},
 		{
 			"name": "NACHTREIHER/40E",
 			"weight": 9820,
 			"en_load": 330,
-			"output_adj": 84
+			"output_adj": 84,
+			"price": 275000
 		},
 		{
 			"name": "VE-40A",
 			"weight": 21100,
 			"en_load": 432,
-			"output_adj": 122
+			"output_adj": 122,
+			"price": 570000
 		},
 		{
 			"name": "CC-2000 ORBITER",
 			"weight": 12650,
 			"en_load": 267,
-			"output_adj": 103
+			"output_adj": 103,
+			"price": 0
 		},
 		{
 			"name": "CC-3000 WRECKER",
 			"weight": 19000,
 			"en_load": 310,
-			"output_adj": 96
+			"output_adj": 96,
+			"price": 158000
 		},
 		{
 			"name": "CS-5000 MAIN DISH",
 			"weight": 23600,
 			"en_load": 413,
-			"output_adj": 97
+			"output_adj": 97,
+			"price": 519000
 		},
 		{
 			"name": "EL-TC-10 FIRMEZA",
 			"weight": 10890,
 			"en_load": 351,
-			"output_adj": 104
+			"output_adj": 104,
+			"price": 452000
 		},
 		{
 			"name": "EL-PC-00 ALBA",
 			"weight": 12000,
 			"en_load": 315,
-			"output_adj": 101
+			"output_adj": 101,
+			"price": 531000
 		},
 		{
 			"name": "07-061 MIND ALPHA",
 			"weight": 16510,
 			"en_load": 364,
-			"output_adj": 112
+			"output_adj": 112,
+			"price": 553000
 		},
 		{
 			"name": "IA-C01C EPHEMERA",
 			"weight": 13200,
 			"en_load": 412,
-			"output_adj": 126
+			"output_adj": 126,
+			"price": 590000
 		},
 		{
 			"name": "IB-C03C HAL 826",
 			"weight": 18520,
 			"en_load": 366,
-			"output_adj": 120
+			"output_adj": 120,
+			"price": 663000
 		}
 	],
 	"arms":
@@ -216,92 +254,110 @@
 		{
 			"name": "AA-J-123 BASHO",
 			"weight": 10480,
-			"en_load": 210
+			"en_load": 210,
+			"price": 81000
 		},
 		{
 			"name": "AA-J-123/RC JAILBREAK",
 			"weight": 8480,
-			"en_load": 210
+			"en_load": 210,
+			"price": 0
 		},
 		{
 			"name": "AR-011 MELANDER",
 			"weight": 13650,
-			"en_load": 265
+			"en_load": 265,
+			"price": 95000
 		},
 		{
 			"name": "AR-012 MELANDER C3",
 			"weight": 12300,
-			"en_load": 232
+			"en_load": 232,
+			"price": 0
 		},
 		{
 			"name": "DF-AR-08 TIAN-QIANG",
 			"weight": 20020,
-			"en_load": 295
+			"en_load": 295,
+			"price": 200000
 		},
 		{
 			"name": "DF-AR-09 TIAN-LAO",
 			"weight": 26740,
-			"en_load": 266
+			"en_load": 266,
+			"price": 310000
 		},
 		{
 			"name": "VP-46S",
 			"weight": 14020,
-			"en_load": 278
+			"en_load": 278,
+			"price": 177000
 		},
 		{
 			"name": "VP-46D",
 			"weight": 10990,
-			"en_load": 248
+			"en_load": 248,
+			"price": 258000
 		},
 		{
 			"name": "NACHTREIHER/46E",
 			"weight": 11420,
-			"en_load": 302
+			"en_load": 302,
+			"price": 138000
 		},
 		{
 			"name": "VE-46A",
 			"weight": 22210,
-			"en_load": 380
+			"en_load": 380,
+			"price": 286000
 		},
 		{
 			"name": "AC-2000 TOOL ARM",
 			"weight": 11300,
-			"en_load": 216
+			"en_load": 216,
+			"price": 0
 		},
 		{
 			"name": "AC-3000 WRECKER",
 			"weight": 14650,
-			"en_load": 220
+			"en_load": 220,
+			"price": 79000
 		},
 		{
 			"name": "AS-5000 SALAD",
 			"weight": 20940,
-			"en_load": 356
+			"en_load": 356,
+			"price": 249000
 		},
 		{
 			"name": "EL-TA-10 FIRMEZA",
 			"weight": 11220,
-			"en_load": 270
+			"en_load": 270,
+			"price": 227000
 		},
 		{
 			"name": "EL-PA-00 ALBA",
 			"weight": 9810,
-			"en_load": 315
+			"en_load": 315,
+			"price": 266000
 		},
 		{
 			"name": "04-101 MIND ALPHA",
 			"weight": 16960,
-			"en_load": 358
+			"en_load": 358,
+			"price": 272000
 		},
 		{
 			"name": "IA-C01A EPHEMERA",
 			"weight": 12700,
-			"en_load": 312
+			"en_load": 312,
+			"price": 296000
 		},
 		{
 			"name": "IB-C03A HAL 826",
 			"weight": 14160,
-			"en_load": 300
+			"en_load": 300,
+			"price": 322000
 		}
 	],
 	"legs":
@@ -310,145 +366,193 @@
 			"name": "AL-J-121 BASHO",
 			"weight": 20520,
 			"load_limit": 62600,
-			"en_load": 300
+			"en_load": 300,
+			"is_tank": false,
+			"price": 141000
 		},
 		{
 			"name": "AL-J-121/RC JAILBREAK",
 			"weight": 18560,
 			"load_limit": 62600,
-			"en_load": 300
+			"en_load": 300,
+			"is_tank": false,
+			"price": 0
 		},
 		{
 			"name": "LG-011 MELANDER",
 			"weight": 18700,
 			"load_limit": 60520,
-			"en_load": 365
+			"en_load": 365,
+			"is_tank": false,
+			"price": 175000
 		},
 		{
 			"name": "LG-012 MELANDER C3",
 			"weight": 17210,
 			"load_limit": 55440,
-			"en_load": 355
+			"en_load": 355,
+			"is_tank": false,
+			"price": 0
 		},
 		{
 			"name": "DF-LG-08 TIAN-QIANG",
 			"weight": 23600,
 			"load_limit": 82600,
-			"en_load": 400
+			"en_load": 400,
+			"is_tank": false,
+			"price": 350000
 		},
 		{
 			"name": "VP-422",
 			"weight": 17900,
 			"load_limit": 58620,
-			"en_load": 387
+			"en_load": 387,
+			"is_tank": false,
+			"price": 313000
 		},
 		{
 			"name": "NACHTREIHER/42E",
 			"weight": 14030,
 			"load_limit": 48650,
-			"en_load": 462
+			"en_load": 462,
+			"is_tank": false,
+			"price": 243000
 		},
 		{
 			"name": "VE-42A",
 			"weight": 28950,
 			"load_limit": 85700,
-			"en_load": 465
+			"en_load": 465,
+			"is_tank": false,
+			"price": 504000
 		},
 		{
 			"name": "2C-2000 CRAWLER",
 			"weight": 16300,
 			"load_limit": 51200,
-			"en_load": 280
+			"en_load": 280,
+			"is_tank": false,
+			"price": 0
 		},
 		{
 			"name": "2C-3000 WRECKER",
 			"weight": 21680,
 			"load_limit": 68900,
-			"en_load": 680
+			"en_load": 680,
+			"is_tank": false,
+			"price": 139000
 		},
 		{
 			"name": "2S-5000 DESSERT",
 			"weight": 25880,
 			"load_limit": 77100,
-			"en_load": 420
+			"en_load": 420,
+			"is_tank": false,
+			"price": 439000
 		},
 		{
 			"name": "EL-TL-10 FIRMEZA",
 			"weight": 11200,
 			"load_limit": 52100,
-			"en_load": 378
+			"en_load": 378,
+			"is_tank": false,
+			"price": 400000
 		},
 		{
 			"name": "EL-PL-00 ALBA",
 			"weight": 13150,
 			"load_limit": 50100,
-			"en_load": 360
+			"en_load": 360,
+			"is_tank": false,
+			"price": 469000
 		},
 		{
 			"name": "06-041 MIND ALPHA",
 			"weight": 22110,
 			"load_limit": 63810,
-			"en_load": 432
+			"en_load": 432,
+			"is_tank": false,
+			"price": 482000
 		},
 		{
 			"name": "IA-C01L EPHEMERA",
 			"weight": 15200,
 			"load_limit": 55050,
-			"en_load": 398
+			"en_load": 398,
+			"is_tank": false,
+			"price": 521000
 		},
 		{
 			"name": "IB-C03L HAL 826",
 			"weight": 20890,
 			"load_limit": 64900,
-			"en_load": 385
+			"en_load": 385,
+			"is_tank": false,
+			"price": 563000
 		},
 		{
 			"name": "KASUAR/42Z",
 			"weight": 19060,
 			"load_limit": 47820,
-			"en_load": 388
+			"en_load": 388,
+			"is_tank": false,
+			"price": 192000
 		},
 		{
 			"name": "06-042 MIND BETA",
 			"weight": 22000,
 			"load_limit": 61600,
-			"en_load": 426
+			"en_load": 426,
+			"is_tank": false,
+			"price": 521000
 		},
 		{
 			"name": "RC-2000 SPRING CHICKEN",
 			"weight": 25890,
 			"load_limit": 68360,
-			"en_load": 402
+			"en_load": 402,
+			"is_tank": false,
+			"price": 419000
 		},
 		{
 			"name": "LG-033M VERILL",
 			"weight": 36200,
 			"load_limit": 76200,
-			"en_load": 675
+			"en_load": 675,
+			"is_tank": false,
+			"price": 465000
 		},
 		{
 			"name": "VP-424",
 			"weight": 31600,
 			"load_limit": 69800,
-			"en_load": 760
+			"en_load": 760,
+			"is_tank": false,
+			"price": 313000
 		},
 		{
 			"name": "LG-022T BORNEMISSZA",
 			"weight": 49800,
 			"load_limit": 100300,
-			"en_load": 455
+			"en_load": 455,
+			"is_tank": true,
+			"price": 280000
 		},
 		{
 			"name": "VE-42B",
 			"weight": 36600,
 			"load_limit": 91000,
-			"en_load": 824
+			"en_load": 824,
+			"is_tank": true,
+			"price": 490000
 		},
 		{
 			"name": "EL-TL-11 FORTALEZA",
 			"weight": 24650,
 			"load_limit": 69300,
-			"en_load": 620
+			"en_load": 620,
+			"is_tank": true,
+			"price": 385000
 		}
 	],
 	"boosters":
@@ -456,62 +560,74 @@
 		{
 			"name": "AB-J-137 KIKAKU",
 			"weight": 1820,
-			"en_load": 266
+			"en_load": 266,
+			"price": 53000
 		},
 		{
 			"name": "BST-G2/P04",
 			"weight": 1710,
-			"en_load": 250
+			"en_load": 250,
+			"price": 72000
 		},
 		{
 			"name": "BST-G1/P10",
 			"weight": 1300,
-			"en_load": 130
+			"en_load": 130,
+			"price": 0
 		},
 		{
 			"name": "BST-G2/P06SPD",
 			"weight": 1420,
-			"en_load": 390
+			"en_load": 390,
+			"price": 133000
 		},
 		{
 			"name": "ALULA/21E",
 			"weight": 1900,
-			"en_load": 410
+			"en_load": 410,
+			"price": 60000
 		},
 		{
 			"name": "FLUEGEL/21Z",
 			"weight": 1980,
-			"en_load": 282
+			"en_load": 282,
+			"price": 202000
 		},
 		{
 			"name": "BUERZEL/21D",
 			"weight": 2240,
-			"en_load": 480
+			"en_load": 480,
+			"price": 151000
 		},
 		{
 			"name": "BC-0600 12345",
 			"weight": 1360,
-			"en_load": 180
+			"en_load": 180,
+			"price": 84000
 		},
 		{
 			"name": "BC-0400 MULE",
 			"weight": 970,
-			"en_load": 200
+			"en_load": 200,
+			"price": 88000
 		},
 		{
 			"name": "BC-0200 GRIDWALKER",
 			"weight": 2010,
-			"en_load": 244
+			"en_load": 244,
+			"price": 169000
 		},
 		{
 			"name": "IA-C01B GILLS",
 			"weight": 1590,
-			"en_load": 400
+			"en_load": 400,
+			"price": 296000
 		},
 		{
 			"name": "IB-C03B NGI 001",
 			"weight": 1930,
-			"en_load": 342
+			"en_load": 342,
+			"price": 323000
 		}
 	],
 	"fcs":
@@ -519,52 +635,62 @@
 		{
 			"name": "FCS-G1/P01",
 			"weight": 80,
-			"en_load": 198
+			"en_load": 198,
+			"price": 0
 		},
 		{
 			"name": "FCS-G2/P05",
 			"weight": 100,
-			"en_load": 232
+			"en_load": 232,
+			"price": 67000
 		},
 		{
 			"name": "FCS0G2/P10SLT",
 			"weight": 120,
-			"en_load": 209
+			"en_load": 209,
+			"price": 96000
 		},
 		{
 			"name": "FCS-G2/P12SML",
 			"weight": 130,
-			"en_load": 278
+			"en_load": 278,
+			"price": 141000
 		},
 		{
 			"name": "FC-006 ABBOT",
 			"weight": 90,
-			"en_load": 266
+			"en_load": 266,
+			"price": 135000
 		},
 		{
 			"name": "FC-008 TALBOT",
 			"weight": 140,
-			"en_load": 312
+			"en_load": 312,
+			"price": 155000
 		},
 		{
 			"name": "VE-21A",
 			"weight": 85,
-			"en_load": 364
+			"en_load": 364,
+			"price": 228000
 		},
 		{
 			"name": "VE-21B",
 			"weight": 160,
-			"en_load": 388
+			"en_load": 388,
+			"price": 315000
 		},
 		{
 			"name": "IA-C01F OCELLUS",
 			"weight": 130,
-			"en_load": 292
+			"en_load": 292,
+			"price": 367000
 		},
 		{
 			"name": "IB-C03F WLT 001",
 			"weight": 150,
-			"en_load": 486
+			"en_load": 486,
+			"price": 400000
 		}
 	],
 	"generators":
@@ -572,72 +698,865 @@
 		{
 			"name": "AG-J-098 JOSO",
 			"weight": 3420,
-			"en_output": 2600
+			"en_output": 2600,
+			"price": 0
 		},
 		{
 			"name": "AG-E-013 YABA",
 			"weight": 5080,
-			"en_output": 3000
+			"en_output": 3000,
+			"price": 240000
 		},
 		{
 			"name": "AG-T005 HOKUSHI",
 			"weight": 7080,
-			"en_output": 3810
+			"en_output": 3810,
+			"price": 312000
 		},
 		{
 			"name": "DF-GN-02 LING-TAI",
 			"weight": 3860,
-			"en_output": 2340
+			"en_output": 2340,
+			"price": 90000
 		},
 		{
 			"name": "DF-GN-06 MING-TANG",
 			"weight": 6320,
-			"en_output": 3160
+			"en_output": 3160,
+			"price": 170000
 		},
 		{
 			"name": "DF-GN-08 SAN-TAI",
 			"weight": 10060,
-			"en_output": 3210
+			"en_output": 3210,
+			"price": 300000
 		},
 		{
 			"name": "VP-20S",
 			"weight": 3800,
-			"en_output": 3200
+			"en_output": 3200,
+			"price": 126000
 		},
 		{
 			"name": "VP-20C",
 			"weight": 5320,
-			"en_output": 3670
+			"en_output": 3670,
+			"price": 229000
 		},
 		{
 			"name": "VP-20D",
 			"weight": 11030,
-			"en_output": 4430
+			"en_output": 4430,
+			"price": 416000
 		},
 		{
 			"name": "VE-20A",
 			"weight": 3590,
-			"en_output": 3120
+			"en_output": 3120,
+			"price": 206000
 		},
 		{
 			"name": "VE-20B",
 			"weight": 5860,
-			"en_output": 2890
+			"en_output": 2890,
+			"price": 324000
 		},
 		{
 			"name": "VE-20C",
 			"weight": 10130,
-			"en_output": 4090
+			"en_output": 4090,
+			"price": 405000
 		},
 		{
 			"name": "IA-C01G AORTA",
 			"weight": 4330,
-			"en_output": 3500
+			"en_output": 3500,
+			"price": 460000
 		},
 		{
 			"name": "IB-C03G NGI 000",
 			"weight": 8950,
-			"en_output": 4340
+			"en_output": 4340,
+			"price": 510000
+		}
+	],
+	"right_arm_units":
+	[
+		{
+			"name": "(NOTHING)",
+			"category": "n/a",
+			"weight": 0,
+			"en_load": 0,
+			"price": 0
+		},
+		{
+			"name": "MA-J-200 RANSETSU-RF",
+			"category": "burst rifle",
+			"weight": 4210,
+			"en_load": 158,
+			"price": 105000
+		},
+		{
+			"name": "LR-036 CURTIS",
+			"category": "linear rifle",
+			"weight": 4150,
+			"en_load": 289,
+			"price": 65000
+		},
+		{
+			"name": "LR-037 HARRIS",
+			"category": "linear rifle",
+			"weight": 4840,
+			"en_load": 441,
+			"price": 135000
+		},
+		{
+			"name": "RF-024 TURNER",
+			"category": "assault rifle",
+			"weight": 3560,
+			"en_load": 102,
+			"price": 0
+		},
+		{
+			"name": "RF-025 SCUDDER",
+			"category": "assault rifle",
+			"weight": 3830,
+			"en_load": 153,
+			"price": 205000
+		},
+		{
+			"name": "MA-J-201 RANSETSU-AR",
+			"category": "burst assault rifle",
+			"weight": 3620,
+			"en_load": 132,
+			"price": 111000
+		},
+		{
+			"name": "MG-014 LUDLOW",
+			"category": "machine gun",
+			"weight": 2450,
+			"en_load": 82,
+			"price": 45000
+		},
+		{
+			"name": "DF-MG-02 CHANG-CHEN",
+			"category": "machine gun",
+			"weight": 3280,
+			"en_load": 143,
+			"price": 120000
+		},
+		{
+			"name": "MA-E-210 ETSUJIN",
+			"category": "burst machine gun",
+			"weight": 2810,
+			"en_load": 98,
+			"price": 74000
+		},
+		{
+			"name": "DF-GA-08 HU-BEN",
+			"category": "gatling gun",
+			"weight": 5800,
+			"en_load": 425,
+			"price": 170000
+		},
+		{
+			"name": "SG-026 HALDEMAN",
+			"category": "shotgun",
+			"weight": 3660,
+			"en_load": 185,
+			"price": 75000
+		},
+		{
+			"name": "SG-027 ZIMMERMAN",
+			"category": "shotgun",
+			"weight": 4400,
+			"en_load": 242,
+			"price": 115000
+		},
+		{
+			"name": "WR-0777 SWEET SIXTEEN",
+			"category": "shotgun",
+			"weight": 1640,
+			"en_load": 268,
+			"price": 49000
+		},
+		{
+			"name": "HG-003 COQUILLETT",
+			"category": "handgun",
+			"weight": 1200,
+			"en_load": 122,
+			"price": 35000
+		},
+		{
+			"name": "HG-004 DUCKETT",
+			"category": "handgun",
+			"weight": 1650,
+			"en_load": 158,
+			"price": 112000
+		},
+		{
+			"name": "MA-E-211 SAMPU",
+			"category": "burst handgun",
+			"weight": 960,
+			"en_load": 62,
+			"price": 73000
+		},
+		{
+			"name": "EL-PW-00 VIENTO",
+			"category": "needle gun",
+			"weight": 1180,
+			"en_load": 215,
+			"price": 148000
+		},
+		{
+			"name": "VP-66EG",
+			"category": "stun gun",
+			"weight": 980,
+			"en_load": 247,
+			"price": 129000
+		},
+		{
+			"name": "DF-BA-06 XUAN-GE",
+			"category": "bazooka",
+			"weight": 5480,
+			"en_load": 240,
+			"price": 70000
+		},
+		{
+			"name": "MAJESTIC",
+			"category": "bazooka",
+			"weight": 4660,
+			"en_load": 178,
+			"price": 121000
+		},
+		{
+			"name": "LITTLE GEM",
+			"category": "bazooka",
+			"weight": 3100,
+			"en_load": 192,
+			"price": 163000
+		},
+		{
+			"name": "44-141 JVLN ALPHA",
+			"category": "detonating bazooka",
+			"weight": 7420,
+			"en_load": 299,
+			"price": 210000
+		},
+		{
+			"name": "DF-GR-07 GOU-CHEN",
+			"category": "grenade launcher",
+			"weight": 5460,
+			"en_load": 385,
+			"price": 140000
+		},
+		{
+			"name": "DIZZY",
+			"category": "grenade launcher",
+			"weight": 6420,
+			"en_load": 455,
+			"price": 260000
+		},
+		{
+			"name": "IRIDIUM",
+			"category": "grenade launcher",
+			"weight": 2020,
+			"en_load": 290,
+			"price": 214000
+		},
+		{
+			"name": "MA-T-222 KYORAI",
+			"category": "napalm bomb launcher",
+			"weight": 2890,
+			"en_load": 60,
+			"price": 91000
+		},
+		{
+			"name": "MA-T-223 KYORIKU",
+			"category": "jamming bomb launcher",
+			"weight": 2600,
+			"en_load": 52,
+			"price": 103000
+		},
+		{
+			"name": "WS-1200 THERAPIST",
+			"category": "stun bomb launcher",
+			"weight": 3180,
+			"en_load": 82,
+			"price": 138000
+		},
+		{
+			"name": "WB-0000 BAD COOK",
+			"category": "flamethrower",
+			"weight": 6210,
+			"en_load": 403,
+			"price": 49000
+		},
+		{
+			"name": "VP-66LR",
+			"category": "laser rifle",
+			"weight": 3560,
+			"en_load": 480,
+			"price": 98000
+		},
+		{
+			"name": "VE-66LRA",
+			"category": "laser rifle",
+			"weight": 4940,
+			"en_load": 532,
+			"price": 180000
+		},
+		{
+			"name": "VE-66LRB",
+			"category": "laser rifle",
+			"weight": 7760,
+			"en_load": 604,
+			"price": 235000
+		},
+		{
+			"name": "WUERGER/66E",
+			"category": "laser shotgun",
+			"weight": 2880,
+			"en_load": 440,
+			"price": 147000
+		},
+		{
+			"name": "VP-66LS",
+			"category": "laser shotgun",
+			"weight": 3540,
+			"en_load": 510,
+			"price": 105000
+		},
+		{
+			"name": "VP-66LH",
+			"category": "laser handgun",
+			"weight": 2800,
+			"en_load": 395,
+			"price": 92000
+		},
+		{
+			"name": "Vvc-760PR",
+			"category": "plasma rifle",
+			"weight": 3330,
+			"en_load": 490,
+			"price": 202000
+		},
+		{
+			"name": "IA-C01W1 NEBULA",
+			"category": "plasma rifle",
+			"weight": 3890,
+			"en_load": 609,
+			"price": 185000
+		},
+		{
+			"name": "IA-C01W6 NB-REDSHIFT",
+			"category": "coral rifle",
+			"weight": 4040,
+			"en_load": 667,
+			"price": 312000
+		},
+		{
+			"name": "IB-C03W1 WLT 011",
+			"category": "coral rifle",
+			"weight": 9030,
+			"en_load": 850,
+			"price": 335000
+		},
+		{
+			"name": "44-142 KRSV",
+			"category": "multi energy rifle",
+			"weight": 10120,
+			"en_load": 707,
+			"price": 377000
+		},
+		{
+			"name": "HI-16: GU-Q1",
+			"category": "pulse gun",
+			"weight": 2110,
+			"en_load": 368,
+			"price": 90000
+		},
+		{
+			"name": "HI-18: GU-A2",
+			"category": "pulse gun",
+			"weight": 2650,
+			"en_load": 446,
+			"price": 159000
+		},
+		{
+			"name": "HML-G2/P19MLT-04",
+			"category": "missile launcher",
+			"weight": 3250,
+			"en_load": 165,
+			"price": 80000
+		},
+		{
+			"name": "HML-G3/P08SPL-06",
+			"category": "split missile launcher",
+			"weight": 4630,
+			"en_load": 180,
+			"price": 127000
+		},
+		{
+			"name": "WS-5000 APERITIF",
+			"category": "siege missile launcher",
+			"weight": 4600,
+			"en_load": 165,
+			"price": 168000
+		}
+	],
+	"left_arm_units":
+	[
+		{
+			"name": "PB-033M ASHMEAD",
+			"category": "pile bunker",
+			"weight": 4180,
+			"en_load": 225,
+			"price": 185000
+		},
+		{
+			"name": "DF-ET-09 TAI-YANG-SHOU",
+			"category": "explosive thrower",
+			"weight": 3790,
+			"en_load": 160,
+			"price": 215000
+		},
+		{
+			"name": "WB-0010 DOUBLE TROUBLE",
+			"category": "chainsaw",
+			"weight": 5090,
+			"en_load": 108,
+			"price": 69000
+		},
+		{
+			"name": "VP-67EB",
+			"category": "stun baton",
+			"weight": 1720,
+			"en_load": 198,
+			"price": 94000
+		},
+		{
+			"name": "VP-67LD",
+			"category": "laser dagger",
+			"weight": 1350,
+			"en_load": 150,
+			"price": 135000
+		},
+		{
+			"name": "Vvc-770LB",
+			"category": "laser blade",
+			"weight": 2680,
+			"en_load": 365,
+			"price": 210000
+		},
+		{
+			"name": "Vvc-774LS",
+			"category": "laser slicer",
+			"weight": 3260,
+			"en_load": 328,
+			"price": 339000
+		},
+		{
+			"name": "VE-67LLA",
+			"category": "laser lance",
+			"weight": 4520,
+			"en_load": 460,
+			"price": 270000
+		},
+		{
+			"name": "44-143 HMMR",
+			"category": "plasma thrower",
+			"weight": 2410,
+			"en_load": 311,
+			"price": 172000
+		},
+		{
+			"name": "IA-C01W2: MOONLIGHT",
+			"category": "light wave blade",
+			"weight": 2200,
+			"en_load": 544,
+			"price": 270000
+		},
+		{
+			"name": "HI-32: BU-TT/A",
+			"category": "pulse blade",
+			"weight": 1800,
+			"en_load": 213,
+			"price": 0
+		},
+		{
+			"name": "IA-C01W7: ML-REDSHIFT",
+			"category": "coral oscillator",
+			"weight": 2200,
+			"en_load": 544,
+			"price": 343000
+		},
+		{
+			"name": "IB-C03W2: WLT 101",
+			"category": "coral oscillator",
+			"weight": 2030,
+			"en_load": 642,
+			"price": 368000
+		}
+	],
+	"right_back_units":
+	[
+		{
+			"name": "(NOTHING)",
+			"category": "n/a",
+			"weight": 0,
+			"en_load": 0,
+			"price": 0
+		},
+		{
+			"name": "SB-033M MORLEY",
+			"category": "spread bazooka",
+			"weight": 8480,
+			"en_load": 465,
+			"price": 255000
+		},
+		{
+			"name": "EARSHOT",
+			"category": "grenade cannon",
+			"weight": 7230,
+			"en_load": 386,
+			"price": 303000
+		},
+		{
+			"name": "SONGBIRDS",
+			"category": "grenade cannon",
+			"weight": 5500,
+			"en_load": 285,
+			"price": 182000
+		},
+		{
+			"name": "VE-60SNA",
+			"category": "stun needle launcher",
+			"weight": 6150,
+			"en_load": 825,
+			"price": 283000
+		},
+		{
+			"name": "VP-60LCS",
+			"category": "laser cannon",
+			"weight": 5190,
+			"en_load": 683,
+			"price": 147000
+		},
+		{
+			"name": "VE-60LCA",
+			"category": "laser cannon",
+			"weight": 14820,
+			"en_load": 1200,
+			"price": 333000
+		},
+		{
+			"name": "VP-60LCD",
+			"category": "diffuse laser cannon",
+			"weight": 7620,
+			"en_load": 784,
+			"price": 215000
+		},
+		{
+			"name": "FASAN/60E",
+			"category": "plasma cannon",
+			"weight": 6270,
+			"en_load": 882,
+			"price": 217000
+		},
+		{
+			"name": "KRANICH/60Z",
+			"category": "pulse cannon",
+			"weight": 2100,
+			"en_load": 652,
+			"price": 177000
+		},
+		{
+			"name": "EULE/60D",
+			"category": "pulse shield launcher",
+			"weight": 3060,
+			"en_load": 620,
+			"price": 243000
+		},
+		{
+			"name": "IA-C01W3: AURORA",
+			"category": "light wave cannon",
+			"weight": 3330,
+			"en_load": 522,
+			"price": 340000
+		},
+		{
+			"name": "BML-G1/P20MLT-04",
+			"category": "missile launcher",
+			"weight": 2120,
+			"en_load": 154,
+			"price": 0
+		},
+		{
+			"name": "BML-G2/P03MLT-06",
+			"category": "missile launcher",
+			"weight": 3840,
+			"en_load": 241,
+			"price": 111000
+		},
+		{
+			"name": "BML-G2/P05MLT-10",
+			"category": "missile launcher",
+			"weight": 5220,
+			"en_load": 320,
+			"price": 165000
+		},
+		{
+			"name": "BML-G2/P19SPL-12",
+			"category": "split missile launcher",
+			"weight": 3580,
+			"en_load": 325,
+			"price": 123000
+		},
+		{
+			"name": "BML-G2/P16SPL-08",
+			"category": "split missile launcher",
+			"weight": 2800,
+			"en_load": 228,
+			"price": 85000
+		},
+		{
+			"name": "BML-G2/P17SPL-16",
+			"category": "split missile launcher",
+			"weight": 5010,
+			"en_load": 510,
+			"price": 160000
+		},
+		{
+			"name": "BML-G1/P31DUO-02",
+			"category": "dual missile launcher",
+			"weight": 1900,
+			"en_load": 182,
+			"price": 144000
+		},
+		{
+			"name": "BML-G1/P32DUO-03",
+			"category": "dual missile launcher",
+			"weight": 3450,
+			"en_load": 262,
+			"price": 180000
+		},
+		{
+			"name": "BML-G2/P08DUO-03",
+			"category": "dual missile launcher",
+			"weight": 4020,
+			"en_load": 332,
+			"price": 228000
+		},
+		{
+			"name": "BML-G1/P01VTC-04",
+			"category": "vertical missile launcher",
+			"weight": 2240,
+			"en_load": 258,
+			"price": 85000
+		},
+		{
+			"name": "BML-G1/P03VTC-08",
+			"category": "vertical missile launcher",
+			"weight": 3920,
+			"en_load": 380,
+			"price": 112000
+		},
+		{
+			"name": "BML-G1/P07VTC-12",
+			"category": "vertical missile launcher",
+			"weight": 5010,
+			"en_load": 525,
+			"price": 188000
+		},
+		{
+			"name": "BML-G3/P04ACT-01",
+			"category": "active homing missile launcher",
+			"weight": 2680,
+			"en_load": 213,
+			"price": 98000
+		},
+		{
+			"name": "BML-G3/P05ACT-02",
+			"category": "active homing missile launcher",
+			"weight": 4320,
+			"en_load": 424,
+			"price": 145000
+		},
+		{
+			"name": "BML-G1/P29CNT",
+			"category": "container missile launcher",
+			"weight": 6370,
+			"en_load": 150,
+			"price": 250000
+		},
+		{
+			"name": "WR-0999 DELIVERY BOY",
+			"category": "cluster missile launcher",
+			"weight": 6890,
+			"en_load": 499,
+			"price": 298000
+		},
+		{
+			"name": "WS-5001 SOUP",
+			"category": "scatter missile launcher",
+			"weight": 5620,
+			"en_load": 680,
+			"price": 326000
+		},
+		{
+			"name": "45-091 JVLN BETA",
+			"category": "detonating missile launcher",
+			"weight": 4250,
+			"en_load": 425,
+			"price": 210000
+		},
+		{
+			"name": "EL-PW-01 TRUENO",
+			"category": "needle missile launcher",
+			"weight": 3100,
+			"en_load": 420,
+			"price": 271000
+		},
+		{
+			"name": "Vvc-703PM",
+			"category": "plasma missile launcher",
+			"weight": 2720,
+			"en_load": 245,
+			"price": 202000
+		},
+		{
+			"name": "Vvc-706PM",
+			"category": "plasma missile launcher",
+			"weight": 4800,
+			"en_load": 342,
+			"price": 310000
+		},
+		{
+			"name": "Vvc-70VPM",
+			"category": "plasma missile launcher",
+			"weight": 3760,
+			"en_load": 268,
+			"price": 96000
+		},
+		{
+			"name": "IB-C03W3: NGI 006",
+			"category": "coral missile launcher",
+			"weight": 4200,
+			"en_load": 783,
+			"price": 380000
+		},
+		{
+			"name": "BO-044 HUXLEY",
+			"category": "bullet orbit",
+			"weight": 2230,
+			"en_load": 425,
+			"price": 305000
+		},
+		{
+			"name": "45-091 ORBT",
+			"category": "laser orbit",
+			"weight": 2010,
+			"en_load": 446,
+			"price": 280000
+		},
+		{
+			"name": "VP-60LT",
+			"category": "laser turret",
+			"weight": 2800,
+			"en_load": 560,
+			"price": 194000
+		},
+		{
+			"name": "Vvc-700LD",
+			"category": "laser drone",
+			"weight": 3800,
+			"en_load": 570,
+			"price": 247000
+		}
+	],
+	"left_back_units":
+	[
+		{
+			"name": "VP-61PS",
+			"category": "pulse shield",
+			"weight": 2700,
+			"en_load": 310,
+			"price": 123000
+		},
+		{
+			"name": "SI-24: SU-Q5",
+			"category": "pulse shield",
+			"weight": 2010,
+			"en_load": 220,
+			"price": 43000
+		},
+		{
+			"name": "SI-27: SU-R8",
+			"category": "pulse shield",
+			"weight": 3150,
+			"en_load": 323,
+			"price": 100000
+		},
+		{
+			"name": "VP-61PB",
+			"category": "pulse buckler",
+			"weight": 1920,
+			"en_load": 285,
+			"price": 76000
+		},
+		{
+			"name": "SI-29: SU-TT/C",
+			"category": "pulse buckler",
+			"weight": 3380,
+			"en_load": 385,
+			"price": 62000
+		},
+		{
+			"name": "VE-61PSA",
+			"category": "pulse scutum",
+			"weight": 4100,
+			"en_load": 480,
+			"price": 197000
+		},
+		{
+			"name": "IB-C03W4: NGI 028",
+			"category": "coral shield",
+			"weight": 2170,
+			"en_load": 800,
+			"price": 255000
+		}
+	],
+	"expansions": [
+		{
+			"name": "(NONE)",
+			"weight": 0,
+			"en_load": 0,
+			"price": 0
+		},
+		{
+			"name": "ASSAULT ARMOR",
+			"weight": 0,
+			"en_load": 0,
+			"price": 0
+		},
+		{
+			"name": "PULSE ARMOR",
+			"weight": 0,
+			"en_load": 0,
+			"price": 0
+		},
+		{
+			"name": "PULSE PROTECTION",
+			"weight": 0,
+			"en_load": 0,
+			"price": 0
+		},
+		{
+			"name": "TERMINAL ARMOR",
+			"weight": 0,
+			"en_load": 0,
+			"price": 0
 		}
 	]
 }
