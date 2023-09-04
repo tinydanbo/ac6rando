@@ -70,55 +70,63 @@ function isBuildValid(build) {
 	return true;
 }
 
-fetch("./data.json")
-	.then((res) => res.json())
-	.then((data) => {
-		parts_data = data;
-		console.log(parts_data);
+function ready(fn) {
+	if (document.readyState !== 'loading') {
+		fn();
+	} else {
+		document.addEventListener('DOMContentLoaded', fn);
+	}
+}
+
+ready(function() {
+	fetch("./data.json").then(function(response) {
+		response.json().then(function(data) {
+			parts_data = data;
+		});
 	});
 
-document.querySelector("#toggle-price-option").addEventListener("click", function() {
-	const price_slider = document.querySelector("#price-option");
-	use_price_limit = document.querySelector("#toggle-price-option").checked;
-	price_slider.disabled = !use_price_limit;
-	document.querySelector("#price-value").innerHTML = parseInt(document.querySelector("#price-option").value).toLocaleString("en-US");
-	if (use_price_limit) {
-		document.querySelector("#price-value").style.display = "inline";
-	} else {
-		document.querySelector("#price-value").style.display = "none";
-	}
-});
+	document.querySelector("#toggle-price-option").addEventListener("click", function() {
+		const price_slider = document.querySelector("#price-option");
+		use_price_limit = document.querySelector("#toggle-price-option").checked;
+		price_slider.disabled = !use_price_limit;
+		document.querySelector("#price-value").innerHTML = parseInt(document.querySelector("#price-option").value).toLocaleString("en-US");
+		if (use_price_limit) {
+			document.querySelector("#price-value").style.display = "inline";
+		} else {
+			document.querySelector("#price-value").style.display = "none";
+		}
+	});
 
-document.querySelector("#price-option").addEventListener("input", function() {
-	price_limit = document.querySelector("#price-option").value;
-	document.querySelector("#price-value").innerHTML = parseInt(document.querySelector("#price-option").value).toLocaleString("en-US");
-});
+	document.querySelector("#price-option").addEventListener("input", function() {
+		price_limit = document.querySelector("#price-option").value;
+		document.querySelector("#price-value").innerHTML = parseInt(document.querySelector("#price-option").value).toLocaleString("en-US");
+	});
 
-const btn = document.querySelector("#reroll");
+	const btn = document.querySelector("#reroll");
 
-btn.addEventListener("click", function() {
-	let build = generateRandomBuild();
-	while (!isBuildValid(build)) {
-		build = generateRandomBuild();
-	}
-	document.querySelector("#head-name").innerHTML = build.head.name;
-	document.querySelector("#core-name").innerHTML = build.core.name;
-	document.querySelector("#arms-name").innerHTML = build.arms.name;
-	document.querySelector("#legs-name").innerHTML = build.legs.name;
-	if (build.booster) {
-		document.querySelector("#booster-name").innerHTML = build.booster.name;
-	} else {
-		document.querySelector("#booster-name").innerHTML = "(N/A)";
-	}
-	document.querySelector("#fcs-name").innerHTML = build.fcs.name;
-	document.querySelector("#generator-name").innerHTML = build.generator.name;
-	document.querySelector("#expansion-name").innerHTML = build.expansion.name;
-	let weight_pct = (total_weight / load_limit) * 100;
-	weight_pct = Math.round(weight_pct * 100) / 100;
-	let energy_pct = (total_en_load / en_limit) * 100;
-	energy_pct = Math.round(energy_pct * 100) / 100;
-	document.querySelector("#weight-info").innerHTML = total_weight + " / " + load_limit + " (" + weight_pct + "%)"
-	document.querySelector("#energy-info").innerHTML = total_en_load + " / " + Math.round(en_limit) + " (" + energy_pct + "%)"
-	document.querySelector("#price-info").innerHTML = total_price.toLocaleString("en-US");
-	console.log(build);
+	btn.addEventListener("click", function() {
+		let build = generateRandomBuild();
+		while (!isBuildValid(build)) {
+			build = generateRandomBuild();
+		}
+		document.querySelector("#head-name").innerHTML = build.head.name;
+		document.querySelector("#core-name").innerHTML = build.core.name;
+		document.querySelector("#arms-name").innerHTML = build.arms.name;
+		document.querySelector("#legs-name").innerHTML = build.legs.name;
+		if (build.booster) {
+			document.querySelector("#booster-name").innerHTML = build.booster.name;
+		} else {
+			document.querySelector("#booster-name").innerHTML = "(N/A)";
+		}
+		document.querySelector("#fcs-name").innerHTML = build.fcs.name;
+		document.querySelector("#generator-name").innerHTML = build.generator.name;
+		document.querySelector("#expansion-name").innerHTML = build.expansion.name;
+		let weight_pct = (total_weight / load_limit) * 100;
+		weight_pct = Math.round(weight_pct * 100) / 100;
+		let energy_pct = (total_en_load / en_limit) * 100;
+		energy_pct = Math.round(energy_pct * 100) / 100;
+		document.querySelector("#weight-info").innerHTML = total_weight + " / " + load_limit + " (" + weight_pct + "%)"
+		document.querySelector("#energy-info").innerHTML = total_en_load + " / " + Math.round(en_limit) + " (" + energy_pct + "%)"
+		document.querySelector("#price-info").innerHTML = total_price.toLocaleString("en-US");
+	});
 });
