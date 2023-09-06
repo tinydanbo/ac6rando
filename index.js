@@ -1,3 +1,7 @@
+Array.prototype.random = function () {
+	return this[Math.floor((Math.random()*this.length))];
+}
+
 let parts_data = {};
 let total_weight = 0;
 let load_limit = 0;
@@ -7,21 +11,22 @@ let total_price = 0;
 
 let price_limit = 1000000;
 
+let should_allow_overweight = false;
 let should_randomize_weapons = false;
 let use_price_limit = false;
 
 function generateRandomBuild() {
 	let new_build = {
-		head: _.sample(parts_data.heads),
-		core: _.sample(parts_data.cores),
-		arms: _.sample(parts_data.arms),
-		legs: _.sample(parts_data.legs),
-		fcs: _.sample(parts_data.fcs),
-		generator: _.sample(parts_data.generators),
-		expansion: _.sample(parts_data.expansions),
+		head: parts_data.heads.random(),
+		core: parts_data.cores.random(),
+		arms: parts_data.arms.random(),
+		legs: parts_data.legs.random(),
+		fcs: parts_data.fcs.random(),
+		generator: parts_data.generators.random(),
+		expansion: parts_data.expansions.random(),
 	};
 	if (! new_build.legs.is_tank) {
-		new_build.booster = _.sample(parts_data.boosters);
+		new_build.booster = parts_data.boosters.random();
 	}
 	if (should_randomize_weapons) {
 
@@ -31,26 +36,20 @@ function generateRandomBuild() {
 
 function isBuildValid(build) {
 	let weight = 0;
-	weight += build.head.weight;
-	weight += build.core.weight;
-	weight += build.arms.weight;
-	if (build.booster) {
-		weight += build.booster.weight;
-	}
-	weight += build.fcs.weight;
-	weight += build.generator.weight;
-	if (weight > build.legs.load_limit) {
+	Object.keys(build).forEach(function(k) {
+		if (k != "legs") {
+			weight += build[k].weight;
+		}
+	})
+	if (!should_allow_overweight && weight > build.legs.load_limit) {
 		return false;
 	}
 	let total_en = 0;
-	total_en += build.head.en_load;
-	total_en += build.core.en_load;
-	total_en += build.arms.en_load;
-	total_en += build.legs.en_load;
-	if (build.booster) {
-		total_en += build.booster.en_load;
-	}
-	total_en += build.fcs.en_load;
+	Object.values(build).forEach(function(part) {
+		if (part.en_load) {
+			total_en += part.en_load;
+		}
+	})
 	let adjusted_en_output = build.generator.en_output * (build.core.output_adj / 100);
 	if (total_en > adjusted_en_output) {
 		return false;
@@ -95,6 +94,10 @@ ready(function() {
 		} else {
 			document.querySelector("#price-value").style.display = "none";
 		}
+	});
+
+	document.querySelector("#toggle-overweight").addEventListener("click", function() {
+		should_allow_overweight = document.querySelector("#toggle-overweight").checked;
 	});
 
 	document.querySelector("#price-option").addEventListener("input", function() {

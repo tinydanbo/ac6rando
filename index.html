@@ -31,7 +31,7 @@
 			background-color: #EEE;
 			padding: 2em;
 		}
-		.options h3 {
+		.options h2 {
 			margin-top: 0;
 		}
 		.build {
@@ -86,20 +86,21 @@
 	<button id="reroll">Randomize</button>
 	<br /><br />
 	<div class="options">
-		<h3>Options</h3>
+		<h2>Options</h2>
 		<div>
-			<input type="checkbox" id="toggle-price-option" autocomplete="off" /> <label for="toggle-price-option">Maximum Total Price</label> <input type="range" id="price-option" value="1000000" step="50000" min="0" max="5000000" autocomplete="off" disabled /> <label for="price-option" id="price-value"></label>
+			<input type="checkbox" id="toggle-price-option" autocomplete="off" /> <label for="toggle-price-option">Maximum Total Price</label> <input type="range" id="price-option" value="1000000" step="50000" min="0" max="5000000" autocomplete="off" disabled /> <label for="price-option" id="price-value"></label><br />
+			<input type="checkbox" id="toggle-overweight" autocomplete="off" /> <label for="toggle-overweight">Generate Overweight Builds</label> 
 		</div>
 	</div>
-	<h3>Changelog</h3>
+	<h2>Changelog</h2>
 	<ol>
+		<li>2023/09/06 -- allow overweight builds option</li>
 		<li>2023/09/05 -- no boosters for tank legs, price option, changed layout</li>
 		<li>2023/09/03 -- first version</li>
 	</ol>
 	<footer>
 		<a href="https://cohost.org/danbo" />danbo</a> did this. <a href="https://github.com/tinydanbo/ac6rando">GitHub source</a>
 	</footer>
-	<script src="https://cdn.jsdelivr.net/npm/underscore@1.13.6/underscore-umd-min.js"></script>
-	<script type="module" src="./index.js"></script>
+	<script type="module" src="./index.js?ver02"></script>
 </body>
 </html>
