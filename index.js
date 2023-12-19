@@ -12,15 +12,32 @@ let total_price = 0;
 let price_limit = 1000000;
 
 let should_allow_overweight = false;
+let should_allow_jailbreak = true;
 let should_randomize_weapons = true;
+let should_exclude_shields = false;
+let should_allow_weapons_bay = false;
 let use_price_limit = false;
+
+function filterJailbreak(parts) {
+	return should_allow_jailbreak
+		? parts
+		: parts.filter(function(part) {
+			return !part.name.includes('JAILBREAK');
+		});
+}
+
+function filterShields(parts) {
+	return parts.filter(function(part) {
+		return !['pulse shield', 'pulse buckler', 'pulse scutum', 'coral shield'].includes(part.category);
+	});
+}
 
 function generateRandomBuild() {
 	let new_build = {
-		head: parts_data.heads.random(),
-		core: parts_data.cores.random(),
-		arms: parts_data.arms.random(),
-		legs: parts_data.legs.random(),
+		head: filterJailbreak(parts_data.heads).random(),
+		core: filterJailbreak(parts_data.cores).random(),
+		arms: filterJailbreak(parts_data.arms).random(),
+		legs: filterJailbreak(parts_data.legs).random(),
 		fcs: parts_data.fcs.random(),
 		generator: parts_data.generators.random(),
 		expansion: parts_data.expansions.random(),
@@ -29,10 +46,27 @@ function generateRandomBuild() {
 		new_build.booster = parts_data.boosters.random();
 	}
 	if (should_randomize_weapons) {
-		new_build.right_arm_unit = parts_data.right_arm_units.random();
-		new_build.left_arm_unit = parts_data.left_arm_units.random();
-		new_build.right_back_unit = parts_data.right_back_units.random();
-		new_build.left_back_unit = parts_data.left_back_units.random();
+		let right_arm_units = parts_data.right_arm_units;
+		let left_arm_units = parts_data.left_arm_units;
+		let right_back_units = parts_data.right_back_units;
+		let left_back_units = parts_data.left_back_units;
+
+		if (should_exclude_shields) {
+			right_arm_units = filterShields(right_arm_units);
+			left_arm_units = filterShields(left_arm_units);
+			right_back_units = filterShields(right_back_units);
+			left_back_units = filterShields(left_back_units);
+		}
+
+		if (should_allow_weapons_bay) {
+			right_back_units = right_back_units.concat(right_arm_units);
+			left_back_units = left_back_units.concat(left_arm_units);
+		}
+
+		new_build.right_arm_unit = right_arm_units.random();
+		new_build.left_arm_unit = left_arm_units.random();
+		new_build.right_back_unit = right_back_units.random();
+		new_build.left_back_unit = left_back_units.random();
 	}
 	return new_build
 }
@@ -99,8 +133,20 @@ ready(function() {
 		}
 	});
 
+	document.querySelector("#toggle-jailbreak").addEventListener("click", function() {
+		should_allow_jailbreak = document.querySelector("#toggle-jailbreak").checked;
+	});
+
 	document.querySelector("#toggle-weapons").addEventListener("click", function() {
 		should_randomize_weapons = document.querySelector("#toggle-weapons").checked;
+	});
+
+	document.querySelector("#toggle-shields").addEventListener("click", function() {
+		should_exclude_shields = document.querySelector("#toggle-shields").checked;
+	});
+
+	document.querySelector("#toggle-weapons-bay").addEventListener("click", function() {
+		should_allow_weapons_bay = document.querySelector("#toggle-weapons-bay").checked;
 	});
 
 	document.querySelector("#toggle-overweight").addEventListener("click", function() {
