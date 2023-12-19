@@ -12,7 +12,7 @@ let total_price = 0;
 let price_limit = 1000000;
 
 let should_allow_overweight = false;
-let should_randomize_weapons = false;
+let should_randomize_weapons = true;
 let use_price_limit = false;
 
 function generateRandomBuild() {
@@ -29,7 +29,10 @@ function generateRandomBuild() {
 		new_build.booster = parts_data.boosters.random();
 	}
 	if (should_randomize_weapons) {
-
+		new_build.right_arm_unit = parts_data.right_arm_units.random();
+		new_build.left_arm_unit = parts_data.left_arm_units.random();
+		new_build.right_back_unit = parts_data.right_back_units.random();
+		new_build.left_back_unit = parts_data.left_back_units.random();
 	}
 	return new_build
 }
@@ -65,7 +68,7 @@ function isBuildValid(build) {
 	total_weight = weight;
 	load_limit = build.legs.load_limit;
 	total_en_load = total_en;
-	en_limit = adjusted_en_output; 
+	en_limit = adjusted_en_output;
 	return true;
 }
 
@@ -96,6 +99,10 @@ ready(function() {
 		}
 	});
 
+	document.querySelector("#toggle-weapons").addEventListener("click", function() {
+		should_randomize_weapons = document.querySelector("#toggle-weapons").checked;
+	});
+
 	document.querySelector("#toggle-overweight").addEventListener("click", function() {
 		should_allow_overweight = document.querySelector("#toggle-overweight").checked;
 	});
@@ -124,6 +131,10 @@ ready(function() {
 		document.querySelector("#fcs-name").innerHTML = build.fcs.name;
 		document.querySelector("#generator-name").innerHTML = build.generator.name;
 		document.querySelector("#expansion-name").innerHTML = build.expansion.name;
+		document.querySelector("#right-arm-name").innerHTML = build.right_arm_unit?.name ?? '...';
+		document.querySelector("#left-arm-name").innerHTML = build.left_arm_unit?.name ?? '...';
+		document.querySelector("#right-back-name").innerHTML = build.right_back_unit?.name ?? '...';
+		document.querySelector("#left-back-name").innerHTML = build.left_back_unit?.name ?? '...';
 		let weight_pct = (total_weight / load_limit) * 100;
 		weight_pct = Math.round(weight_pct * 100) / 100;
 		let energy_pct = (total_en_load / en_limit) * 100;

@@ -39,6 +39,9 @@
 			display: grid;
 			grid-template-columns: 1fr 1fr;
 		}
+		footer {
+			margin-bottom: 2em;
+		}
 	</style>
 </head>
 <body>
@@ -77,6 +80,22 @@
 			<div class="part-category">EXPANSION</div>
 			<div class="part-name" id="expansion-name">...</div>
 		</div>
+		<div class="part">
+			<div class="part-category">RIGHT ARM WEAPON</div>
+			<div class="part-name" id="right-arm-name">...</div>
+		</div>
+		<div class="part">
+			<div class="part-category">LEFT ARM WEAPON</div>
+			<div class="part-name" id="left-arm-name">...</div>
+		</div>
+		<div class="part">
+			<div class="part-category">RIGHT BACK WEAPON</div>
+			<div class="part-name" id="right-back-name">...</div>
+		</div>
+		<div class="part">
+			<div class="part-category">LEFT BACK WEAPON</div>
+			<div class="part-name" id="left-back-name">...</div>
+		</div>
 	</div>
 	<ul>
 		<li><b>Weight:</b> <span id="weight-info">...</span></li>
@@ -88,12 +107,14 @@
 	<div class="options">
 		<h2>Options</h2>
 		<div>
+			<input type="checkbox" id="toggle-weapons" autocomplete="off" checked /> <label for="toggle-weapons">Generate Random Weapons</label><br />
 			<input type="checkbox" id="toggle-price-option" autocomplete="off" /> <label for="toggle-price-option">Maximum Total Price</label> <input type="range" id="price-option" value="1000000" step="50000" min="0" max="5000000" autocomplete="off" disabled /> <label for="price-option" id="price-value"></label><br />
-			<input type="checkbox" id="toggle-overweight" autocomplete="off" /> <label for="toggle-overweight">Generate Overweight Builds</label> 
+			<input type="checkbox" id="toggle-overweight" autocomplete="off" /> <label for="toggle-overweight">Generate Overweight Builds</label>
 		</div>
 	</div>
 	<h2>Changelog</h2>
 	<ol>
+		<li>2023/12/19 -- generate random weapons option</li>
 		<li>2023/09/06 -- allow overweight builds option</li>
 		<li>2023/09/05 -- no boosters for tank legs, price option, changed layout</li>
 		<li>2023/09/03 -- first version</li>
